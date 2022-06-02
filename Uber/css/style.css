@@ -1,0 +1,440 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 40px;
+    background-color: #212121;
+}
+
+.menu {
+    height: 40px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.menu_item {
+    display: block;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    border-right: 4px dotted black;
+    padding: 0 48px;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+.sub_header {
+    position: absolute;
+    width: 100%;
+    min-height: 84px;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.sub_header .sub_header_logo {
+    display: block;
+    margin-top: 22px;
+    max-height: 100%;
+}
+
+.sub_header .sub_header_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.sub_header .sub_header_call {
+    display: block;
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 4px;
+    text-align: right;
+}
+
+.sub_header .sub_header_phone a {
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sub_header .sub_header_button, .promo .promo_btn {
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;   
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 118px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/header.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    margin-top: 22px;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.advantages {
+    min-height: 900px;
+    padding: 71px 0 65px 0;
+}
+
+.advantages .advantages_btn, .mobil .mobil_btn, .choice .choice_btn, .conditions .conditions_btn {
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.choice .choice_btn {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.advantages .advantages_header {
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ .advantages .adv_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+ }
+
+ .advantages .adv_wrapper .adv_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 63px;
+}
+
+ .advantages .adv_wrapper .adv_item .adv_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+ }
+
+ .advantages .adv_wrapper .adv_item .adv_descr {
+    width: 341px;
+    color: #1eacc7;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: justifyLeft;
+ }
+
+ .advantages .adv_wrapper .adv_item .adv_descr span {
+    color: #202020;
+    font-weight: 300;
+    font-size: 15px;
+ }
+
+ .mobil {
+     min-height: 864px;
+     background: url('../img/first_menu.jpg');
+     padding: 48px 0 80px 0;
+ }
+
+ .mobil .mobil_header {
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .mobil .mobil_subheader {
+    margin-top: 19px;
+    color: #222222;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+ }
+
+ .mobil .mobil_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .mobil .mobil_item {
+    position: relative;
+    margin: 19px 53px;
+    width: 320px;
+    height: 280px;
+    padding-top: 91px;
+ }
+
+ .mobil .mimg1 {
+     background: url('../img/mobil_uber/1.jpg')
+ }
+
+ .mobil .mimg2 {
+    background: url('../img/mobil_uber/2.jpg')
+}
+
+.mobil .mimg3 {
+    background: url('../img/mobil_uber/3.jpg')
+}
+
+.mobil .mimg4 {
+    background: url('../img/mobil_uber/4.jpg')
+}
+
+.mobil .mimg5 {
+    background: url('../img/mobil_uber/5.jpg')
+}
+
+.mobil .mimg6 {
+    background: url('../img/mobil_uber/6.jpg')
+}
+
+.mobil .mobil_descr {
+    display: block;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mobil .mobil_icon {
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 48%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 26px;
+    height: 26px;
+    background-color: #000000;
+    border-radius: 100%;
+}
+
+.choice {
+    position: relative;
+    height: 499px;
+    background-color: #070716;
+    text-align: center;
+    padding-top: 57px;
+}
+
+
+.choice .choice_img {
+    position: relative;
+    z-index: 1;
+    margin-top: 56px;
+    width: 759px;
+    height: 480px;
+}
+
+.choice .choice_header {
+    margin-top: 32px;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.choice .choice_subheader {
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.choice .choice_secondimg {
+    min-height: 397px;
+    background: url('../img/second_menu.jpg') center center/cover no-repeat;
+    transform: translateY(-238px);
+    z-index: 2;
+    padding: 217px;
+}
+
+.choice .choise_secondimg .choise_second_text {
+    color: #222222;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+.conditions {
+    margin-top: 470px;
+    min-height: 919px;
+    padding: 68px 0 84px 0;
+}
+
+.conditions .conditions_header {
+    margin-top: 33px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conditions .conditions_subheader, .conditions .conditions_subheader_red {
+    color: #1ca8c3;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.conditions .conditions_subheader_red {
+    color: #ff5656;
+    margin-top: 62px;
+}
+
+.conditions .conditions_item {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+.conditions .conditions_item .conditions_icon_blue {
+    width: 21px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.conditions .conditions_text {
+    margin-top: 26px;
+    color: #1ca8c3;
+    font-weight: 300;
+}
+
+.world {
+    background: url('../img/third_menu.jpg') center center/cover no-repeat;
+    min-height: 717px;
+    padding: 49px 0;
+    text-align: center;
+}
+
+.world .world_btn {
+    width: 76px;
+    height: 24px;
+    background-color: #ffffff;
+    color: #070716;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.world .world_header {
+    margin-top: 32px;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.world .world_subheader {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+
+.world .world_allworld {
+    margin-top: 486px;
+    color: #1fbad6;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bottom_block {
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 299px;
+    height: 4px;
+    background-color: #1fbad6;
+}
